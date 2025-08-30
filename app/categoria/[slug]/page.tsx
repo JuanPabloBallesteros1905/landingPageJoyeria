@@ -40,6 +40,13 @@ interface PageProps {
   };
 }
 
+// Función para generar los parámetros estáticos
+export function generateStaticParams() {
+  return Object.keys(categories).map((slug) => ({
+    slug,
+  }));
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const category = categories[params.slug as keyof typeof categories];
   
