@@ -176,7 +176,7 @@ export default function ProductInfo({ product }: ProductInfoProps) {
           <Truck className="h-5 w-5 text-blue-600 flex-shrink-0" />
           <div>
             <div className="font-medium text-sm">Envío Gratuito</div>
-            <div className="text-xs text-gray-600">En compras >$5,000</div>
+            <div className="text-xs text-gray-600">En compras 55,000</div>
           </div>
         </div>
         
