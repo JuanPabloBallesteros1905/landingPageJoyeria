@@ -159,9 +159,9 @@ export default function ProductTabs({ product }: ProductTabsProps) {
                   <div className="flex-1">
                     <div className="flex items-center space-x-3 mb-2">
                       <span className="font-medium text-black">{review.user}</span>
-                      {review.verified && (
+                      {/* {review.verified && (
                         <Badge variant="secondary" className="text-xs">Compra Verificada</Badge>
-                      )}
+                      )} */}
                       <span className="text-sm text-gray-400">{review.date}</span>
                     </div>
                     <div className="flex mb-3">
