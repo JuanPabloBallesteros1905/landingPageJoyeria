@@ -35,7 +35,7 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <Crown className="h-8 w-8 text-yellow-400" />
-              <span className="text-2xl font-serif font-bold">Aurelia</span>
+              <span className="text-2xl font-serif font-bold">Joyeria Italiana</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Más de 50 años creando joyas excepcionales que celebran los momentos 
@@ -54,7 +54,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-yellow-400 flex-shrink-0" />
-                <span className="text-sm text-gray-300">info@aurelia.mx</span>
+                <span className="text-sm text-gray-300">info@Joyeria Italiana.mx</span>
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ export default function Footer() {
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-gray-400 text-sm">
-            © 2024 Aurelia Jewelry. Todos los derechos reservados.
+            © 2024 Joyeria Italiana Jewelry. Todos los derechos reservados.
           </div>
           
           {/* Social Media */}

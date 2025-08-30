@@ -6,11 +6,11 @@ import NewsletterSection from '@/components/sections/NewsletterSection';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Aurelia - Joyería de Lujo Exclusiva | Colección Premium',
-  description: 'Descubre la exclusiva colección de joyas de lujo Aurelia. Anillos de compromiso únicos, collares de diamantes, pulseras premium y aretes elegantes. Crafteadas con materiales excepcionales.',
+  title: 'Joyeria Italiana - Joyería de Lujo Exclusiva | Colección Premium',
+  description: 'Descubre la exclusiva colección de joyas de lujo Joyeria Italiana. Anillos de compromiso únicos, collares de diamantes, pulseras premium y aretes elegantes. Crafteadas con materiales excepcionales.',
   keywords: 'joyería de lujo, anillos de compromiso, diamantes, oro, platino, joyas exclusivas, colección premium',
   openGraph: {
-    title: 'Aurelia - Joyería de Lujo Exclusiva',
+    title: 'Joyeria Italiana - Joyería de Lujo Exclusiva',
     description: 'Colección exclusiva de joyas de lujo crafteadas con materiales excepcionales',
     images: ['/images/hero-jewelry.jpg'],
   },

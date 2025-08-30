@@ -55,7 +55,7 @@ export default function Hero() {
               <div className="absolute inset-0 luxury-gradient opacity-10 rounded-full blur-3xl"></div>
               <Image
                 src="https://images.pexels.com/photos/1232931/pexels-photo-1232931.jpeg"
-                alt="Joyería de lujo Aurelia"
+                alt="Joyería de lujo Joyeria Italiana"
                 fill
                 className="object-cover rounded-2xl shadow-2xl"
                 priority

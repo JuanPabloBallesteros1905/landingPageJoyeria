@@ -14,17 +14,24 @@ interface PageProps {
   };
 }
 
+// Función para generar los parámetros estáticos
+export function generateStaticParams() {
+  return products.map((product) => ({
+    id: product.id,
+  }));
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const product = products.find(p => p.id === params.id);
   
   if (!product) {
     return {
-      title: 'Producto no encontrado - Aurelia',
+      title: 'Producto no encontrado - Joyeria Italiana',
     };
   }
 
   return {
-    title: `${product.name} | Aurelia - Joyería de Lujo`,
+    title: `${product.name} | Joyeria Italiana - Joyería de Lujo`,
     description: product.description,
     keywords: product.tags.join(', '),
     openGraph: {

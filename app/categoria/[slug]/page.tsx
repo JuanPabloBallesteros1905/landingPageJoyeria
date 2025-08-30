@@ -52,15 +52,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   
   if (!category) {
     return {
-      title: 'Categoría no encontrada - Aurelia',
+      title: 'Categoría no encontrada - Joyeria Italiana',
     };
   }
 
   return {
-    title: `${category.title} | Aurelia - Joyería de Lujo`,
+    title: `${category.title} | Joyeria Italiana - Joyería de Lujo`,
     description: category.description,
     openGraph: {
-      title: `${category.title} | Aurelia`,
+      title: `${category.title} | Joyeria Italiana`,
       description: category.description,
       images: [category.image],
     },

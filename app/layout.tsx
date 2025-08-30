@@ -16,12 +16,12 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Aurelia - Joyería de Lujo Exclusiva',
+  title: 'Joyeria Italiana - Joyería de Lujo Exclusiva',
   description: 'Descubre nuestra exclusiva colección de joyas de lujo. Anillos, collares, pulseras y aretes únicos crafteados con materiales premium.',
   keywords: 'joyería de lujo, anillos de diamantes, collares premium, pulseras exclusivas, aretes elegantes',
-  authors: [{ name: 'Aurelia Jewelry' }],
+  authors: [{ name: 'Joyeria Italiana Jewelry' }],
   openGraph: {
-    title: 'Aurelia - Joyería de Lujo Exclusiva',
+    title: 'Joyeria Italiana - Joyería de Lujo Exclusiva',
     description: 'Descubre nuestra exclusiva colección de joyas de lujo',
     type: 'website',
     locale: 'es_ES',

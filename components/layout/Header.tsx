@@ -47,7 +47,7 @@ export default function Header() {
                 <Crown className="h-8 w-8 text-black group-hover:text-yellow-600 transition-colors duration-300" />
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-600 opacity-0 group-hover:opacity-20 rounded-full blur-sm transition-opacity duration-300"></div>
               </div>
-              <span className="text-2xl font-serif font-bold text-black tracking-tight">Aurelia</span>
+              <span className="text-2xl font-serif font-bold text-black tracking-tight">Joyeria Italiana</span>
             </Link>
 
             {/* Desktop Navigation */}

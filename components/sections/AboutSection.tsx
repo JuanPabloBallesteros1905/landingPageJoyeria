@@ -36,7 +36,7 @@ export default function AboutSection() {
               Tradición y Excelencia desde 1970
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              En Aurelia, cada joya es una obra maestra crafteada con dedicación absoluta. 
+              En Joyeria Italiana, cada joya es una obra maestra crafteada con dedicación absoluta. 
               Nuestra tradición familiar de más de 50 años nos respalda como referentes 
               en joyería de lujo, combinando técnicas artesanales ancestrales con diseños 
               contemporáneos innovadores.
